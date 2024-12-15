@@ -28,7 +28,7 @@ function App() {
       </form>
       <div className="max-w-xl w-full mx-auto">
         {data ? (
-          <div language="swift">{data}</div>
+          <div>{data}</div>
         ) : null}
       </div>
     </main>
