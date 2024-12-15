@@ -1,7 +1,5 @@
 import { useState } from 'react';
 import { reqGroqAi } from './utils/groq.js';
-import { Light as SyntaxHighlight } from 'react-syntax-highlighter';
-import { darcula } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 import './App.css';
 
 function App() {
