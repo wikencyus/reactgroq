@@ -28,7 +28,7 @@ function App() {
       </form>
       <div className="max-w-xl w-full mx-auto">
         {data ? (
-          <SyntaxHighlight language="swift" style={darcula} wrapLines={true}>{data}</SyntaxHighlight>
+          <div language="swift" style={darcula} wrapLines={true}>{data}</div>
         ) : null}
       </div>
     </main>
