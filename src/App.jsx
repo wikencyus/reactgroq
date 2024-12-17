@@ -28,7 +28,7 @@ function App() {
       </form>
       <div className="max-w-xl w-full mx-auto">
         {data ? (
-          <div>{data}</div>
+          <div className="text-white">{data}</div>
         ) : null}
       </div>
     </main>
